@@ -13,7 +13,7 @@ const reducer = (state, action) => {
     }
 }
 
-const Exemplo = () => {
+const Ex1 = () => {
     const [state, dispatch] = useReducer(reducer, {count: 0});
 
     return (
@@ -26,4 +26,6 @@ const Exemplo = () => {
     )
 }
 
-export default Exemplo;
+export default Ex1;
+
+// 1. **Contador Básico**: Crie um contador que incremente e decremente usando `useReducer`.
